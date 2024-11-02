@@ -59,6 +59,8 @@ export default function SuzukiAlto () {
                         <Image
                         src="/honda.jpg" 
                         alt="Honda Civic" 
+                        width={400}
+                        height={300}
                         className="h-80" />
                     </div>
             </div>

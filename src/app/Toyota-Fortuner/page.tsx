@@ -60,15 +60,17 @@ export default function ToyotaFortuner () {
                     <div className="7/12">
                         <Image 
                         src="/Fortuner.PNG" 
-                        alt="Toyota Fortuner" 
-                        className="h-80" />
+                        alt="Toyota Fortuner"
+                        width={400}
+                        height={300}
+                        className="" />
                     </div>
             </div>
             <div className="bg-white h-24 border-t border-gray-300 flex items-center">
 
                     <div className="w-3/12 border-r h-24 border-gray-300 flex px-7 items-center">
-                        <div className="rounded-full bg-gray-200 h-10 w-10 py-1.5 px-1.5">
-                            <Image src="meter.png" alt="" className="" />
+                        <div className="rounded-full bg-gray-200 h-10 w-10 py-2 pl-2">
+                            <Image src="/meter.png" alt="" width={26} height={26} className="" />
                         </div>
                         <div className="pl-4">
                             <p className="text-xs text-gray-700">MILEAGE (KM/LITER)</p>
@@ -77,8 +79,8 @@ export default function ToyotaFortuner () {
                     </div>
 
                     <div className="w-3/12 border-r h-24 border-gray-300 flex px-7 items-center">
-                        <div className="rounded-full bg-gray-200 h-10 w-10 py-1.5 px-1.5">
-                            <Image src="transmission.png" alt="" className="" />
+                        <div className="rounded-full bg-gray-200 h-10 w-10 pt-2 pl-2">
+                            <Image src="/transmission.png" alt="" width={26} height={26} className="" />
                         </div>
                         <div className="pl-4">
                             <p className="text-xs text-gray-700">Transmission</p>
@@ -87,8 +89,8 @@ export default function ToyotaFortuner () {
                     </div>
 
                     <div className="w-3/12 border-r h-24 border-gray-300 flex px-7 items-center">
-                        <div className="rounded-full bg-gray-200 h-10 w-10 py-1.5 px-1.5">
-                            <Image src="fuel.png" alt="" className="" />
+                        <div className="rounded-full bg-gray-200 h-10 w-10 pt-2 pl-2">
+                            <Image src="/fuel.png" alt="" width={26} height={26} className="" />
                         </div>
                         <div className="pl-4">
                             <p className="text-xs text-gray-800">Fuel Type</p>
@@ -97,8 +99,8 @@ export default function ToyotaFortuner () {
                     </div>
 
                     <div className="w-3/12  flex px-7 items-center">
-                        <div className="rounded-full bg-gray-200 h-10 w-10 py-1.5 px-1.5">
-                            <Image src="engine.png" alt="" className="" />
+                        <div className="rounded-full bg-gray-200 h-10 w-10 py-2 pl-2 ">
+                            <Image src="/engine.png" alt=""width={26} height={26}className="" />
                         </div>
                         <div className="pl-4">
                             <p className="text-xs text-gray-800">Engine</p>

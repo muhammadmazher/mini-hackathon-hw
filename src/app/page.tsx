@@ -14,7 +14,7 @@ export default function Home() {
             <h4 className="text-blue-600 text-sm pt-1"><Link href="/">View All New Cars</Link></h4>
           </div>
 
-          <ul className="flex space-x-12 pt-8 pb-3 text-xl border-b-2 border-slate-300">
+          <ul className="flex space-x-12 pt-8 pb-3 text-lg border-b-2 border-slate-300">
             <li><Link href="/">Popular</Link></li>
             <li><Link href="/">Upcoming</Link></li>
             <li><Link href="/">Newly Launched</Link></li>            
@@ -26,6 +26,8 @@ export default function Home() {
             <Image
             src="/Fortuner.PNG"
             alt="Fortuner"
+            width={230}
+            height={172}
             className="hover:opacity-75"/>
             <h3 className="text-blue-950 pt-2 text-center font-semibold text-lg hover:text-blue-700">Toyota Fortuner</h3>
             </Link>
@@ -52,7 +54,9 @@ export default function Home() {
             <Link href="/Toyota-Corolla" title="New Toyota Corolla">
               <Image 
               src="/toyota-corola.jpg"
-              alt="Fortuner"
+              alt="Toyota Corolla"
+              width={230}
+              height={172}
               className="hover:opacity-75"/>
               <h3 className="text-blue-950 pt-2 text-center font-semibold text-lg hover:text-blue-700">Toyota Corolla</h3>
             </Link>
@@ -80,6 +84,8 @@ export default function Home() {
               <Image 
               src="/alto.PNG"
               alt="Suzuki Alto"
+              width={230}
+              height={172}
               className="hover:opacity-75"/>
               <h3 className="text-blue-950 pt-2 text-center font-semibold text-lg hover:text-blue-700">Suzuki Alto</h3>
             </Link>
@@ -107,6 +113,8 @@ export default function Home() {
               <Image 
               src="/honda.jpg"
               alt="Honda Civic"
+              width={230}
+              height={172}
               className="hover:opacity-75"/>
               <h3 className="text-blue-950 pt-2 text-center font-semibold text-lg hover:text-blue-700">Honda Civic</h3>
             </Link>

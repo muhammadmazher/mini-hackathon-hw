@@ -18,10 +18,12 @@ export default function Navbar() {
         <div className=" flex px-8">
         
         <Link href="/">
-          <Image
-          src="Pw.png"
+        <Image
+          src="/Pw.png"
           alt="Logo"
-          className="py-2"/>
+          width={200}
+          height={53}
+          className=" py-2" />
         </Link>
           
         </div>

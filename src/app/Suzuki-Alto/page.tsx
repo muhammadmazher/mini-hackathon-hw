@@ -53,20 +53,23 @@ export default function SuzukiAlto () {
                          <div className="pl-11 pt-6">
                             <Link href="Detail-Form"><button className="rounded bg-green-500 shadow-md px-10 py-2 hover:bg-green-600 text-white font-semibold">Order Now</button>
                             </Link>
+                    </div>
                 </div>
-                
                     <div className="7/12">
                         <Image
                         src="/alto.png" 
-                        alt="Suzuki Alto" 
-                        className="h-80" />
+                        alt="Suzuki Alto"
+                        width={400}
+                        height={300}
+                        className="" />
                     </div>
-            </div>
-            <div className="bg-white h-24 border-t border-gray-300 flex items-center">
+                
+                </div>
+                <div className="bg-white h-24 border-t border-gray-300 flex items-center">
 
                     <div className="w-3/12 border-r h-24 border-gray-300 flex px-7 items-center">
                         <div className="rounded-full bg-gray-200 h-10 w-10 py-1.5 px-1.5">
-                            <Image src="meter.png" alt="" className="" />
+                            <Image src="/meter.png" alt=""  width={26} height={26}  className="" />
                         </div>
                         <div className="pl-4">
                             <p className="text-xs text-gray-700">MILEAGE (KM/LITER)</p>
@@ -76,7 +79,7 @@ export default function SuzukiAlto () {
 
                     <div className="w-3/12 border-r h-24 border-gray-300 flex px-7 items-center">
                         <div className="rounded-full bg-gray-200 h-10 w-10 py-1.5 px-1.5">
-                            <Image src="transmission.png" alt="" className="" />
+                            <Image src="/transmission.png" alt="" width={23} height={23}  className="" />
                         </div>
                         <div className="pl-4">
                             <p className="text-xs text-gray-700">Transmission</p>
@@ -86,7 +89,7 @@ export default function SuzukiAlto () {
 
                     <div className="w-3/12 border-r h-24 border-gray-300 flex px-7 items-center">
                         <div className="rounded-full bg-gray-200 h-10 w-10 py-1.5 px-1.5">
-                            <Image src="fuel.png" alt="" className="" />
+                            <Image src="/fuel.png" alt=""  width={26} height={26}  className="" />
                         </div>
                         <div className="pl-4">
                             <p className="text-xs text-gray-800">Fuel Type</p>
@@ -96,7 +99,7 @@ export default function SuzukiAlto () {
 
                     <div className="w-3/12  flex px-7 items-center">
                         <div className="rounded-full bg-gray-200 h-10 w-10 py-1.5 px-1.5">
-                            <Image src="engine.png" alt="" className="" />
+                            <Image src="/engine.png" alt=""  width={26} height={26}  className="" />
                         </div>
                         <div className="pl-4">
                             <p className="text-xs text-gray-800">Engine</p>
@@ -109,8 +112,8 @@ export default function SuzukiAlto () {
                 
 
                 
-            </div>
-            </div>   
+                </div>
+               
         </div>
             
 
