@@ -82,7 +82,7 @@ export default function Home() {
           <div className="bg-white h-72 w-56">
             <Link href="Suzuki-Alto" title=" New Suzuki Alto">
               <Image 
-              src="/alto.PNG"
+              src="/alto.png"
               alt="Suzuki Alto"
               width={230}
               height={172}
